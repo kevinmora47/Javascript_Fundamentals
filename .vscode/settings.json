@@ -1,8 +1,0 @@
-{
-    "editor.formatOnPaste": true,
-    "editor.formatOnType": true,
-    "prettier.trailingComma": "all",
-    "cSpell.words": [
-        "Andrey"
-    ]
-}
