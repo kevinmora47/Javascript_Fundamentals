@@ -1,5 +1,5 @@
 // Object literal expression.
-const kevin = {
+const kevin2 = {
   firstName: "Kevin",
   lastName: "Mora",
   age: 21,
@@ -19,3 +19,21 @@ const interestedIn = prompt(`What do you like to know about me?
 4.Job.
 5.Friends.`);
 console.log(jonas[interestedIn]); // This will display the property that the user typed.
+// Adding new attributes to an object.
+kevin.location = "Costa Rica";
+kevin["instagram"] = "AndreyMora04";
+console.log(kevin);
+
+// Challenge.
+// Kevin has 3 friends, and his best friend is called Emily.
+
+const kevin = {
+  firstName: "Kevin",
+  lastName: "Mora",
+  age: 21,
+  job: "teacher",
+  friends: ["Emily", "Sofia"],
+};
+console.log(
+  `${kevin.firstName}, has ${kevin.friends.length} friends, and his best friend is called: ${kevin.friends[0]}`
+);
