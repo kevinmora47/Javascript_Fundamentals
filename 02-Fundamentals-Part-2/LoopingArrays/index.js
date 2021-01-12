@@ -3,7 +3,7 @@ const jonasArray = [
   "Schmedtmann",
   2021 - 1999,
   "teacher",
-  ["Michael", "Peter", "Steven"],
+  ["Michael", "Peter", "Steven"]
 ];
 
 const types = [];
